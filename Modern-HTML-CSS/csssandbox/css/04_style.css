@@ -1,0 +1,14 @@
+h1 {
+    /* color name */
+    color: salmon;
+}
+
+h2 {
+    /* RGB */
+    color: rgb(121, 65, 224);
+}
+
+h3 {
+    /* Hexidecimal */
+    color: #28472a;
+}
