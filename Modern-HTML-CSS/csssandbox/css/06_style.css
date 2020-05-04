@@ -1,0 +1,48 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: lightgray;
+    border: 2px grey solid;
+    width: 500px;
+
+    /* Padding on all sides */
+    padding: 20px; /* Spacing inside the border (visible or not) */
+
+    /* Padding per side */
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 10;
+
+    /* Padding Shorthand  = top, right, bottom, left */
+    padding: 10px 20px 10px 20px;
+
+    /* Padding even shorter hand = top/bottom, right/left */
+    padding: 10px 20px;
+
+    /* Margin on all sides */
+    margin: 20px; /* Spacing outside the border. Can provide spacing between boxes and such */
+
+    /* Margin per side */
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 10;
+
+    /* Margin Shorthand  = top, right, bottom, left */
+    margin: 10px 20px 10px 20px;
+
+    /* Margin even shorter hand = top/bottom, right/left */
+    margin: 10px 20px;
+}
+
+.box h3 {
+    padding-bottom: 10px;
+}
+
+

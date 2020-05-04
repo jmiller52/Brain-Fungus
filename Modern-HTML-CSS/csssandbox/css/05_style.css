@@ -1,0 +1,39 @@
+#box-1 {
+    /* Basic border and background color */
+    background-color: blanchedalmond;
+    /* border-width: 3px;
+    border-color: red;
+    border-style: solid; */
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+#box-2 {
+    /* Border on one side */
+    background: #333;
+    color: white;
+    border-top: blue solid 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#box-3 {
+    /* Background image */
+
+    /* background-image: url('../img/stars.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+    
+    /* This achieves the same result as the 4 lines above */
+    background: url('../img/stars.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    height: 300px;
+    width: 600px;
+}
+
+#box-4 {
+    /* fixing the background image to not move when you scroll the page */
+    background: url('../img/leaf.png') no-repeat center center;
+    background-attachment: fixed;
+}
