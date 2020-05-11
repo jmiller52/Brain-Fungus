@@ -1,0 +1,24 @@
+li {
+    display: inline;
+}
+
+li a {
+    padding-right: 20px;
+}
+
+img {
+    /* images are inline elements so margin auto does not work.
+    you need to change the display to block first */
+    display: block;
+    margin: auto;
+}
+
+.box {
+    width: 32.9%;
+    /* inline-block allows the use of width, margin, etc... */
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 15px;
+}

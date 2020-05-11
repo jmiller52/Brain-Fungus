@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Link Styling */
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: coral;
+}
+
+/* a:visited {
+    color: red;
+} */
+
+a:active {
+    color: red;
+}
+
+/* Button Styling */
+.btn {
+    background-color: #4c6ca0;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #f4f4f4;
+    background: #446190;
+}
