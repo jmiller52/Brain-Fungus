@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+    <nav>
+        <a href="https://www.google.com">google</a>
+    </nav>
+    <footer>
+        <p>Website made with love</p>
+    </footer>
+    <!-- Use GET, not POST -->
+    <form method="GET">
+        First Name: <input type="text" name="firstname" id="fname" placeholder="First Name">
+        <br>
+        Last Name: <input type="text" name="lastname" id="lname" placeholder="Last Name">
+        <br>
+        Email: <input type="email" name="email" id="email" placeholder="Email" required>
+        <br>
+        Password: <input type="password" name="password" id="password" minlength="5">
+        <br>
+        Birthday: <input type="date" name="birstday" id="bday">
+        <br>
+        Gender: <br>
+        <input type="radio" name="gender" id="male" value="male"> Male <br>
+        <input type="radio" name="gender" id="female" value="female"> Female <br>
+        <input type="radio" name="gender" id="other" value="other"> Other <br>
+        Pets: <br>
+        <input type="checkbox" name="cat" id="cat"> Cat
+        <input type="checkbox" name="dog" id="dog"> Dog <br>
+        Cars: <br>
+        <select name="car" id="car">
+            <option value="volvo">Volvo</option>
+            <option value="ford">Ford</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
