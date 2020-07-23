@@ -5,7 +5,7 @@
 # Tuples are immutable
 
 print('4-13 Buffet')
-main_items = ('waffles', 'scrambles eggs', 'bacon' , 'grits', 'chicken fried steak')
+main_items = ('waffles', 'scrambles eggs', 'bacon', 'grits', 'chicken fried steak')
 print("The buffet's five main items are: ")
 for value in main_items:
     print(value)
@@ -15,6 +15,6 @@ print('\n')
 # failed correctly
 
 print("The buffet's updates main items are: ")
-main_items = ('waffles', 'scrambles eggs', 'bacon' , 'fresh fruit', 'cinnanom rolls')
+main_items = ('waffles', 'scrambles eggs', 'bacon', 'fresh fruit', 'cinnamon rolls')
 for value in main_items:
     print(value)
